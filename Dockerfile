@@ -17,4 +17,4 @@ RUN sudo apt-get update
 RUN sudo apt-get install sbt
 
 # add SCALA to path.
-ENV PATH /usr/local/bin/scala:$PATH
+ENV PATH /usr/bin/scala:$PATH
