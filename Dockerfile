@@ -15,3 +15,6 @@ RUN wget http://dl.bintray.com/sbt/debian/sbt-0.13.5.deb
 RUN sudo dpkg -i sbt-0.13.5.deb
 RUN sudo apt-get update
 RUN sudo apt-get install sbt
+
+# add SCALA to path.
+ENV PATH /usr/local/bin/scala:$PATH
